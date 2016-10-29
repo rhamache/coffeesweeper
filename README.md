@@ -7,7 +7,7 @@ Requires [jQuery](https://jquery.com/) and [Bootstrap](http://getbootstrap.com/)
 A minimal example to run Coffesweeper:
 
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
