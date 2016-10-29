@@ -1,6 +1,6 @@
 # Coffeesweeper
 
-A Minesweeper clone.
+A Minesweeper clone. Visit [http://www.ryanhamacher.com/coffeesweeper.html](http://www.ryanhamacher.com/coffeesweeper.html) to see it in action.
 
 Requires [jQuery](https://jquery.com/), [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
 
