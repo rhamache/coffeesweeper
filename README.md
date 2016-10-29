@@ -4,7 +4,7 @@ A Minesweeper clone.
 
 Requires [jQuery](https://jquery.com/), [Bootstrap](http://getbootstrap.com/) and [Font Awesome](http://fontawesome.io/).
 
-A minimal example to run Coffesweeper:
+A minimal example to run Coffeesweeper:
 
 
 ```html
@@ -34,7 +34,7 @@ A minimal example to run Coffesweeper:
     
     <script type="text/javascript">
         $(function () {
-            var game = new MinesweeperGame("game-area");
+            var game = new CoffeesweeperGame("game-area");
             game.init();
         });
     </script>
