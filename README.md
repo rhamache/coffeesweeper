@@ -21,13 +21,15 @@ A minimal example to run Coffesweeper:
 </head>
 <body>
     <div class="col-xs-10 col-xs-offset-1">
-        <div class="row">
-            <p>
-                Built by <a href="http://www.ryanhamacher.com">Ryan Hamacher</a>. Open source and available on GitHub.
-            </p>
-        </div>
+        <div id="game-area"></div>
     </div>
     <script type="text/javascript" src="link_to_coffeesweeper.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var game = new MinesweeperGame("game-area");
+            game.init();
+        });
+    </script>
 </body>
 </html>
 ```
